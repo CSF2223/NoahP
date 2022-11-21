@@ -10,6 +10,9 @@ white: #fff
 black: #000  
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 html {
     /* If we add any padding or border onto an element it does not affect the width of the element */
         box-sizing: border-box;
@@ -18,7 +21,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     background-color: #343434;
     color: #fff;
@@ -94,7 +97,7 @@ body {
 }
 
 .projectCard {
-    background-color: #fff;
+    background-image: linear-gradient(to right, #fff, #000);;
     color: #343434;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
